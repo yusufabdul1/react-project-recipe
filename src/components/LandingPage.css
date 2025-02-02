@@ -1,0 +1,61 @@
+/* LandingPage.css */
+#landing-container {
+  text-align: center;
+  padding: 50px;
+}
+
+#landing-hero {
+  background-image: url('https://wallpapers.com/images/hd/food-4k-m37wpodzrcbv5gvw.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#landing-hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+#landing-hero p {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+#landing-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #ff6f61;
+  color: white;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+#landing-button:hover {
+  background-color: #e55d54;
+}
+
+#landing-features {
+  margin-top: 50px;
+}
+
+.feature {
+  margin-bottom: 30px;
+}
+
+.feature h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 1em;
+}
+
+#landing-footer {
+  margin-top: 50px;
+  font-size: 0.9em;
+  color: #666;
+}
