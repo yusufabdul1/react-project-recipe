@@ -1,10 +1,13 @@
 /* FavoriteForm.css */
 .favorite-form {
   padding: 20px;
-  margin: 10px;
+  margin: 20px; /* Increased margin for better spacing */
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: #f9f9f9;
+  background-image: url('https://img.freepik.com/free-photo/top-view-cooked-bell-peppers-with-different-seasonings-dark-grey-surface-food-dolma-vegetable-meal-beef_140725-74495.jpg');
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the background image */
 }
 
 .favorite-form h2 {
