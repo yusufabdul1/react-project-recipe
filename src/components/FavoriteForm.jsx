@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './FavoriteForm.css'; // Import the CSS file
 
 function FavoriteForm() {
   const [favorites, setFavorites] = useState([]);
